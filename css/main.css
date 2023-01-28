@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -12,6 +12,7 @@ h4,
 h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  margin-left: 50px;
 }
 
 .container {
@@ -20,15 +21,12 @@ h6 {
   padding: 0 1rem;
 }
 
-img {
-  width: 100%;
-}
-
 .main-nav ul {
+  background-color: white;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 14px;
   padding: 0;
 }
 
@@ -44,10 +42,17 @@ img {
   font-size: 1.25rem;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
 form input,
 form textarea {
   display: block;
-  width: 100%;
+  width: 50%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
 }
@@ -60,12 +65,91 @@ form textarea {
 }
 
 form button {
+  float: right;
   background: none;
-  border: 2px solid black;
+  border: 2px solid  #ccc;;
   padding: 1rem;
   text-transform: uppercase;
+  margin-right: 86px;
 }
 
 .site-footer {
   padding: 2rem 0;
+  margin-top: 62px;
 }
+
+/* my style */
+
+a:focus{
+  outline: 2px solid black;
+}
+
+.skip-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skip-links a{
+  position: absolute;
+  top: -3em;
+  background-color: black;
+  color:white;
+  padding: .5em 1em;
+  font-weight: bold;
+}
+
+p{
+  text-align:left;
+  letter-spacing: 2px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+footer a{
+  position: absolute;
+  top: -3em;
+  background-color: black;
+  color:white;
+  padding: .5em 1em;
+  font-weight: bold;
+}
+
+/* my form style*/
+input, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+form label {
+  float:left;
+  width: 30%;
+  margin-top: 6px;
+  margin-left: 100px;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+dt {
+  float: left;
+  width: 50%;
+  background: white;
+  padding: 0;
+  margin-left: 100px;
+}
+dd {
+  float: left;
+  width: 50%;
+  background:white;
+  padding: 0;
+  margin-left: 100px;
+}
+
